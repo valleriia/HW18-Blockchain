@@ -58,7 +58,7 @@ Initialize each node with the new `networkname.json` with `geth`.
 
     `./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://eb47ce12ddc640f516004500f4ffe7dd7d2b8591643c3a0c837b7e8759a53b652b97250b305d7556e59873edcd54ae64c4fee808c5faa807931a5b1d5a3de19d@127.0.0.1:30303"`
 
-    ![Second Node](5.png)
+    ![Second Node](Screenshots/5.png)
 
 ## Send a test transaction
 * Return the the MyCrypto app. On the lefthand-side click `Change Network` and the click `+Add Custom Node`.
