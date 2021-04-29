@@ -1,0 +1,35 @@
+=============== Apr 29, 2021 (EDT) ===============
+14:28:51.090561 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:28:51.130792 db@open opening
+14:28:51.133763 version@stat F·[] S·0B[] Sc·[]
+14:28:51.145870 db@janitor F·2 G·0
+14:28:51.149766 db@open done T·16.968821ms
+14:28:51.157184 db@close closing
+14:28:51.157393 db@close done T·206.834µs
+=============== Apr 29, 2021 (EDT) ===============
+14:29:36.234849 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:29:36.235153 version@stat F·[] S·0B[] Sc·[]
+14:29:36.235197 db@open opening
+14:29:36.235279 journal@recovery F·1
+14:29:36.243994 journal@recovery recovering @1
+14:29:36.263568 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:29:36.275566 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+14:29:36.336895 db@janitor F·3 G·0
+14:29:36.336963 db@open done T·101.739979ms
+14:29:36.421496 table@compaction range L-1 "a":"b"
+14:29:36.421577 table@compaction L0·1 -> L1·0 S·50KiB Q·631
+14:29:36.434934 table@build created L1@5 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:29:36.459565 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+14:29:36.483784 table@compaction committed F~ S~ Ke·0 D·0 T·62.136671ms
+14:29:36.780532 memdb@flush N·7 S·464B
+14:29:36.794321 memdb@flush created L0@7 N·7 S·611B "Dat..ion,v627":"unc..own,v632"
+14:29:36.795857 version@stat F·[1 1] S·51KiB[611B 50KiB] Sc·[0.25 0.00]
+14:29:36.818946 memdb@flush committed F·1 T·38.326431ms
+14:29:36.819776 journal@remove removed @3
+14:29:36.819813 table@compaction range L-1 "o":"p"
+14:29:36.819838 table@compaction L0·1 -> L1·1 S·51KiB Q·633
+14:29:36.834419 table@build created L1@8 N·630 S·51KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:29:36.835342 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+14:29:36.847957 table@compaction committed F-1 S-97B Ke·0 D·2 T·28.081214ms
+14:29:36.849591 table@remove removed @7
+14:29:36.849870 table@remove removed @5

@@ -1,0 +1,35 @@
+=============== Apr 29, 2021 (EDT) ===============
+14:29:01.441809 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:29:01.491135 db@open opening
+14:29:01.491968 version@stat F·[] S·0B[] Sc·[]
+14:29:01.502660 db@janitor F·2 G·0
+14:29:01.503465 db@open done T·12.281992ms
+14:29:01.509252 db@close closing
+14:29:01.509587 db@close done T·302.208µs
+=============== Apr 29, 2021 (EDT) ===============
+14:30:18.174669 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:30:18.174926 version@stat F·[] S·0B[] Sc·[]
+14:30:18.174960 db@open opening
+14:30:18.175036 journal@recovery F·1
+14:30:18.183259 journal@recovery recovering @1
+14:30:18.198908 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:30:18.214825 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+14:30:18.271402 db@janitor F·3 G·0
+14:30:18.271469 db@open done T·96.478615ms
+14:30:18.350346 table@compaction range L-1 "a":"b"
+14:30:18.350408 table@compaction L0·1 -> L1·0 S·50KiB Q·631
+14:30:18.363792 table@build created L1@5 N·625 S·50KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:30:18.390362 version@stat F·[0 1] S·50KiB[0B 50KiB] Sc·[0.00 0.00]
+14:30:18.414206 table@compaction committed F~ S~ Ke·0 D·0 T·63.739638ms
+14:30:18.711957 memdb@flush N·7 S·464B
+14:30:18.731646 memdb@flush created L0@7 N·7 S·611B "Dat..ion,v627":"unc..own,v632"
+14:30:18.732604 version@stat F·[1 1] S·51KiB[611B 50KiB] Sc·[0.25 0.00]
+14:30:18.743366 memdb@flush committed F·1 T·31.318335ms
+14:30:18.744674 journal@remove removed @3
+14:30:18.744747 table@compaction range L-1 "o":"p"
+14:30:18.744789 table@compaction L0·1 -> L1·1 S·51KiB Q·633
+14:30:18.758094 table@build created L1@8 N·630 S·51KiB "\x02d\xfc..\x19Ba,v430":"\xfe\x88\xcf..H\xef\xcc,v363"
+14:30:18.758911 version@stat F·[0 1] S·51KiB[0B 51KiB] Sc·[0.00 0.00]
+14:30:18.770156 table@compaction committed F-1 S+22B Ke·0 D·2 T·25.321521ms
+14:30:18.771426 table@remove removed @7
+14:30:18.771728 table@remove removed @5
