@@ -85,7 +85,6 @@ Initialize each node with the new `networkname.json` with `geth`.
 
 
 * The transaction status screen provides details including Status, TX Hash, From Address, To Address, Amount, Gas Price, and Gas Limit.
-    ![Transaction Status](Screenshots/transaction_status2.png)
 
 * Click 'Check TX Status' to refresh. The status will say SUCCESSFUL when the complete. Additional details are added included Gas Used, and the Transaction Fee. Creating a blockchain and send a test transaction is now complete!
-    ![Transaction Complete](Screenshots/successful_transaction.png)
+ 
